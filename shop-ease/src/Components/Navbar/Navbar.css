@@ -1,0 +1,180 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 36px;
+  border-bottom: 1px solid #eee;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+}
+
+/* ---------- LOGO ---------- */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.nav-logo p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c3e91;
+  margin: 0;
+}
+
+/* ---------- MENU ---------- */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link {
+  color: #2c3e91;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.nav-menu li hr {
+  width: 60%;
+  border: none;
+  border-bottom: 2px solid #7185df;
+  margin-top: 4px;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Shared button base — 36-40px height per spec */
+.nav-auth-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-icon-badge {
+  display: flex;
+  align-items: center;
+}
+
+.nav-user-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Sign Up button — pink theme */
+.nav-signup-btn {
+  color: #2c3e91;
+  border-color: #6c7dc7;
+}
+
+.nav-signup-btn:hover {
+  background-color: #ffe3e8;
+  color: #2c3e91;
+}
+
+.nav-signup-btn.nav-auth-btn-active {
+  background-color: #2c3e91;
+  color: #fff;
+  border-color: #2c3e91;
+}
+
+/* Login button — neutral theme */
+.nav-login-btn {
+  color: #2c3e91;
+  border-color: #ddd;
+}
+
+.nav-login-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.nav-login-btn.nav-auth-btn-active {
+  background-color: #2c3e91;
+  color: #fff;
+  border-color: #2c3e91;
+}
+
+/* ---------- LOGGED-IN STATE ---------- */
+.nav-greeting {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e91;
+}
+
+.nav-logout-btn {
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 20px;
+  border: 1px solid #2c3e91;
+  background: transparent;
+  color: #2c3e91;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-logout-btn:hover {
+  background-color: #2c3e91;
+  color: #fff;
+}
+
+/* ---------- CART ---------- */
+.nav-login-cart img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-cart-count {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #2c3e91;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -14px;
+  margin-top: -18px;
+}
+.nav-profile-icon{
+  color: #2c3e91;
+}

@@ -1,0 +1,27 @@
+.most-loved{
+    width: 95%;
+    margin: 20px  40px 10px ;
+}
+
+.most-loved h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #06165c;
+}
+
+.most-loved-item{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.most-loved-item::-webkit-scrollbar{
+    display: none;
+}
+.most-loved-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    flex-shrink: 0;
+}

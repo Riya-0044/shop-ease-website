@@ -1,0 +1,67 @@
+.orders {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 30px;
+}
+
+.orders h1 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.orders-table th {
+  background: #e53935;
+  color: #ffffff;
+  padding: 15px;
+  text-align: left;
+}
+
+.orders-table td {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.orders-table tr:hover {
+  background: #f9f9f9;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.delivered {
+  background: #4caf50;
+}
+
+.pending {
+  background: #ff9800;
+}
+
+.shipped {
+  background: #2196f3;
+}
+
+@media (max-width: 768px) {
+  .orders {
+    padding: 20px;
+    overflow-x: auto;
+  }
+
+  .orders-table {
+    min-width: 700px;
+  }
+}

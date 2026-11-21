@@ -1,0 +1,292 @@
+.family-container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.family-title{
+    text-align:center;
+    font-size:36px;
+    font-weight:700;
+    color:#020f4b;
+    margin-bottom:10px;
+}
+
+.family-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.family-options{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.family-card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 5px 15px #a3add5;
+    transition:.3s;
+}
+
+.family-card:hover{
+    transform:translateY(-5px);
+}
+
+.family-top,
+.family-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.family-top h2,
+.family-header h2{
+    color:#020f4b;
+    font-size:24px;
+}
+
+.family-status,
+.family-badge{
+    background:#020f4b;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+}
+
+.family-info p,
+.family-body p{
+    margin:10px 0;
+    color:#555;
+    line-height:1.5;
+}
+
+.family-input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-bottom:20px;
+    font-size:16px;
+    outline:none;
+}
+
+.family-input:focus{
+    border-color:#020f4b;
+}
+
+.family-btn{
+    width:100%;
+    padding:14px;
+    background:#020f4b;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.family-btn:hover{
+    background:#424968;
+}
+
+.invite-card{
+    background:#fff;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.invite-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f7f7f7;
+    padding:15px;
+    border-radius:8px;
+    margin-top:15px;
+}
+
+.copy-btn{
+    background:#020f4b;
+    color:#fff;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.copy-btn:hover{
+    background:#7880a6;
+}
+
+.family-members{
+    margin-top:25px;
+}
+
+.family-member-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#fff;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.member-avatar{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#020f4b;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.member-details{
+    flex:1;
+}
+
+.member-details h3{
+    margin-bottom:5px;
+}
+
+.member-details p{
+    color:#666;
+}
+
+.admin-badge{
+    display:inline-block;
+    margin-top:5px;
+    background:#020f4b;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:15px;
+    font-size:12px;
+}
+
+.member-badge{
+    display:inline-block;
+    margin-top:5px;
+    background:#007bff;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:15px;
+    font-size:12px;
+}
+
+.family-product-card,
+.family-product{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:#fff;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.family-product img,
+.family-product-image{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.family-product-details{
+    flex:1;
+}
+
+.family-product-details h3,
+.family-product-details h4{
+    margin-bottom:8px;
+}
+
+.family-product-details p{
+    color:#555;
+    margin:5px 0;
+}
+
+.family-remove-btn{
+    background:#020f4b;
+    color:#fff;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.family-remove-btn:hover{
+    background:#020f4b;
+}
+
+.family-total{
+    margin-top:30px;
+    text-align:right;
+}
+
+.family-total h2{
+    margin-bottom:20px;
+}
+
+.checkout-btn{
+    background:#020f4b;
+    color:#fff;
+    border:none;
+    padding:14px 35px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.checkout-btn:hover{
+    background:#020f4b;
+}
+
+@media(max-width:768px){
+
+.family-product-card,
+.family-product{
+    flex-direction:column;
+    text-align:center;
+}
+
+.family-member-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.invite-box{
+    flex-direction:column;
+    gap:15px;
+}
+
+.family-top,
+.family-header{
+    flex-direction:column;
+    gap:10px;
+}
+
+.family-total{
+    text-align:center;
+}
+
+.family-title{
+    font-size:28px;
+}
+
+}
